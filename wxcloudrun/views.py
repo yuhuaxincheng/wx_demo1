@@ -6,7 +6,6 @@ from flask import jsonify, render_template, request
 from pydantic import ValidationError
 
 from wxcloudrun import app
-<<<<<<< HEAD
 from wxcloudrun.db import (
     db_enabled,
     get_member,
@@ -15,8 +14,6 @@ from wxcloudrun.db import (
     save_recommendation_log,
     upsert_member,
 )
-=======
->>>>>>> 93db3abd64d2407284dfbe88c6d159088a41043c
 from wxcloudrun.llm_client import call_llm, normalize_llm_result
 from wxcloudrun.product_loader import load_products
 from wxcloudrun.recommendation_cache import (
@@ -44,7 +41,6 @@ def _json_response(data: Any, status: int = 200):
     return jsonify(data), status
 
 
-<<<<<<< HEAD
 def _wechat_identity() -> dict:
     return {
         "openid": (
@@ -65,8 +61,6 @@ def _wechat_identity() -> dict:
     }
 
 
-=======
->>>>>>> 93db3abd64d2407284dfbe88c6d159088a41043c
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -79,10 +73,7 @@ def health():
         "service": "roubaogong-ai-recommend",
         "products": len(PRODUCTS),
         "cache": cache_stats(),
-<<<<<<< HEAD
         "db_enabled": db_enabled(),
-=======
->>>>>>> 93db3abd64d2407284dfbe88c6d159088a41043c
     })
 
 
@@ -104,7 +95,6 @@ def post_cache_clear():
     return _json_response(clear_cache())
 
 
-<<<<<<< HEAD
 @app.route("/api/member/login", methods=["POST"])
 def member_login():
     payload = request.get_json(silent=True) or {}
@@ -189,8 +179,6 @@ def recommend_history():
     })
 
 
-=======
->>>>>>> 93db3abd64d2407284dfbe88c6d159088a41043c
 @app.route("/api/recommend", methods=["POST"])
 def recommend():
     payload = request.get_json(silent=True) or {}
@@ -207,10 +195,7 @@ def recommend():
 
     cached = get_cached_response(req, CATALOG_SIGNATURE)
     if cached:
-<<<<<<< HEAD
         save_recommendation_log(req, cached)
-=======
->>>>>>> 93db3abd64d2407284dfbe88c6d159088a41043c
         return _json_response(_model_to_dict(cached))
 
     candidates = filter_and_rank_products(PRODUCTS, req, limit=24)
@@ -252,10 +237,7 @@ def recommend():
     cache_key = save_recommendation_cache(req, CATALOG_SIGNATURE, response)
     if cache_key:
         response.debug["cache_key"] = cache_key
-<<<<<<< HEAD
     log_id = save_recommendation_log(req, response)
     if log_id:
         response.debug["db_log_id"] = log_id
-=======
->>>>>>> 93db3abd64d2407284dfbe88c6d159088a41043c
     return _json_response(_model_to_dict(response))
