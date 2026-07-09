@@ -18,7 +18,7 @@
   ],
   "envParams": {
     "USE_LLM": "true",
-	"SILICONFLOW_API_KEY":  "Bearer sk-qkmvspzkqyjbmrlgxlefwnlcrctztszblvusumgpmjhqonre",
+	"SILICONFLOW_API_KEY":  " ",
     "RECOMMEND_CACHE_ENABLED": "false",
     "RECOMMEND_CACHE_PATH": "/app/wxcloudrun/data/recommendation_cache.json",
     "MYSQL_DATABASE": "rbg_ai",
