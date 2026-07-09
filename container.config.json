@@ -20,8 +20,12 @@
     "USE_LLM": "true",
 	"SILICONFLOW_API_KEY":  "sk-qkmvspzkqyjbmrlgxlefwnlcrctztszblvusumgpmjhqonre",
     "RECOMMEND_CACHE_ENABLED": "true",
+<<<<<<< HEAD
     "RECOMMEND_CACHE_PATH": "/app/wxcloudrun/data/recommendation_cache.json",
     "MYSQL_DATABASE": "rbg_ai"
+=======
+    "RECOMMEND_CACHE_PATH": "/app/wxcloudrun/data/recommendation_cache.json"
+>>>>>>> 93db3abd64d2407284dfbe88c6d159088a41043c
   },
   "customLogs": "stdout",
   "initialDelaySeconds": 5
