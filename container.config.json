@@ -43,13 +43,6 @@
       "PolicyThreshold": 60
     }
   ],
-  "envParams": {
-    "USE_LLM": "true",
-	"SILICONFLOW_API_KEY":  "sk-qkmvspzkqyjbmrlgxlefwnlcrctztszblvusumgpmjhqonre",
-    "RECOMMEND_CACHE_ENABLED": "true",
-    "RECOMMEND_CACHE_PATH": "/app/wxcloudrun/data/recommendation_cache.json",
-    "MYSQL_DATABASE": "rbg_ai"
-  },
   "customLogs": "stdout",
   "initialDelaySeconds": 5
 }
