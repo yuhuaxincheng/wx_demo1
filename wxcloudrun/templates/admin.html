@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>会员数据后台</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", Arial, sans-serif; background: #f6f2eb; color: #2b2118; }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 18px 48px; }
+    .top { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 22px; }
+    h1 { margin: 0; font-size: 28px; }
+    .sub { margin-top: 8px; color: #7a6654; font-size: 14px; }
+    .login { display: flex; gap: 10px; align-items: center; }
+    input { height: 40px; padding: 0 12px; border: 1px solid #d9c7b4; border-radius: 8px; background: #fffaf3; font-size: 14px; }
+    button { height: 40px; padding: 0 16px; border: 0; border-radius: 8px; background: #b83a1f; color: #fff; font-weight: 800; cursor: pointer; }
+    .error { display: none; margin-bottom: 16px; padding: 12px 14px; border: 1px solid #f3c5b8; border-radius: 8px; background: #fff1ed; color: #a63018; line-height: 1.5; }
+    .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 20px; }
+    .stat { padding: 16px; border-radius: 8px; background: #fff; box-shadow: 0 8px 22px rgba(77, 46, 21, 0.06); }
+    .stat-label { color: #8b7665; font-size: 13px; }
+    .stat-value { margin-top: 8px; font-size: 26px; font-weight: 900; }
+    .section { margin-top: 18px; padding: 16px; border-radius: 8px; background: #fff; box-shadow: 0 8px 22px rgba(77, 46, 21, 0.06); }
+    .section-title { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; font-size: 18px; font-weight: 900; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 10px 8px; border-bottom: 1px solid #efe3d6; text-align: left; vertical-align: top; }
+    th { color: #6d5544; background: #fffaf3; font-weight: 800; }
+    .avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; background: #f7f1e7; }
+    .muted { color: #8b7665; }
+    .nowrap { white-space: nowrap; }
+    @media (max-width: 760px) {
+      .top { display: block; }
+      .login { margin-top: 14px; align-items: stretch; }
+      .login input { flex: 1; min-width: 0; }
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .section { overflow-x: auto; }
+      table { min-width: 760px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="top">
+      <div>
+        <h1>会员数据后台</h1>
+        <div class="sub">查看会员、点餐次数、累计消费和推荐记录</div>
+      </div>
+      <div class="login">
+        <input id="tokenInput" type="password" placeholder="管理口令" />
+        <button onclick="saveToken()">进入后台</button>
+        <button onclick="loadAll()">刷新</button>
+      </div>
+    </div>
+
+    <div id="errorBox" class="error"></div>
+
+    <section class="stats">
+      <div class="stat"><div class="stat-label">会员数</div><div id="memberCount" class="stat-value">-</div></div>
+      <div class="stat"><div class="stat-label">点餐次数</div><div id="orderCount" class="stat-value">-</div></div>
+      <div class="stat"><div class="stat-label">累计消费</div><div id="totalAmount" class="stat-value">-</div></div>
+      <div class="stat"><div class="stat-label">推荐记录</div><div id="recommendationCount" class="stat-value">-</div></div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">会员列表 <span id="memberTotal" class="muted"></span></div>
+      <table>
+        <thead>
+          <tr>
+            <th>头像</th>
+            <th>昵称</th>
+            <th>OpenID</th>
+            <th>点餐次数</th>
+            <th>累计消费</th>
+            <th>更新时间</th>
+          </tr>
+        </thead>
+        <tbody id="memberRows"></tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <div class="section-title">最近推荐记录 <span id="logTotal" class="muted"></span></div>
+      <table>
+        <thead>
+          <tr>
+            <th>时间</th>
+            <th>人数</th>
+            <th>预算</th>
+            <th>目标</th>
+            <th>口味</th>
+            <th>模式</th>
+            <th>第一套推荐</th>
+          </tr>
+        </thead>
+        <tbody id="logRows"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    const tokenInput = document.getElementById("tokenInput");
+    tokenInput.value = sessionStorage.getItem("adminToken") || "";
+
+    function showError(message) {
+      const box = document.getElementById("errorBox");
+      box.textContent = message || "";
+      box.style.display = message ? "block" : "none";
+    }
+
+    function saveToken() {
+      sessionStorage.setItem("adminToken", tokenInput.value.trim());
+      loadAll();
+    }
+
+    async function api(path) {
+      const token = sessionStorage.getItem("adminToken") || tokenInput.value.trim();
+      const res = await fetch(path, { headers: { "X-ADMIN-TOKEN": token } });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || `请求失败：${res.status}`);
+      return data;
+    }
+
+    function money(value) {
+      return `¥${Number(value || 0).toFixed(2)}`;
+    }
+
+    function text(value) {
+      return String(value == null ? "" : value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    async function loadAll() {
+      showError("");
+      try {
+        const [summary, members, logs] = await Promise.all([
+          api("/api/admin/summary"),
+          api("/api/admin/members?limit=200"),
+          api("/api/admin/recommendations?limit=50"),
+        ]);
+        renderSummary(summary);
+        renderMembers(members.items || []);
+        renderLogs(logs.items || []);
+      } catch (err) {
+        showError(err.message);
+      }
+    }
+
+    function renderSummary(summary) {
+      document.getElementById("memberCount").textContent = summary.member_count || 0;
+      document.getElementById("orderCount").textContent = summary.order_count || 0;
+      document.getElementById("totalAmount").textContent = money(summary.total_amount);
+      document.getElementById("recommendationCount").textContent = summary.recommendation_count || 0;
+    }
+
+    function renderMembers(items) {
+      document.getElementById("memberTotal").textContent = `${items.length} 条`;
+      document.getElementById("memberRows").innerHTML = items.map(item => `
+        <tr>
+          <td>${item.avatar_url ? `<img class="avatar" src="${text(item.avatar_url)}" />` : ""}</td>
+          <td>${text(item.nick_name || "微信会员")}</td>
+          <td class="muted">${text(item.openid)}</td>
+          <td class="nowrap">${item.order_count || 0}</td>
+          <td class="nowrap">${money(item.total_amount)}</td>
+          <td class="nowrap">${text(item.updated_at || "")}</td>
+        </tr>
+      `).join("");
+    }
+
+    function renderLogs(items) {
+      document.getElementById("logTotal").textContent = `${items.length} 条`;
+      document.getElementById("logRows").innerHTML = items.map(item => {
+        const rec = ((item.response || {}).recommendations || [])[0] || {};
+        return `
+          <tr>
+            <td class="nowrap">${text(item.created_at || "")}</td>
+            <td>${text(item.people_count || "")}</td>
+            <td>${text(item.budget_range || "")}</td>
+            <td>${text(item.meal_goal || "")}</td>
+            <td>${text(item.taste || "")}</td>
+            <td>${text(item.mode || "")}</td>
+            <td>${text(rec.title || "")} ${rec.total_price ? money(rec.total_price) : ""}</td>
+          </tr>
+        `;
+      }).join("");
+    }
+  </script>
+</body>
+</html>
