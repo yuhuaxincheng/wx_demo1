@@ -1,0 +1,2828 @@
+[
+  {
+    "product_id": "P001",
+    "name": "轻脂卤牛腱能量碗",
+    "category": "减脂轻食",
+    "sub_category": "能量碗",
+    "is_combo": false,
+    "price": 39.9,
+    "cost": 22.0,
+    "gross_margin": 0.44862155388471175,
+    "spec": "卤牛腱120g+蔬菜+煎蛋",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 35.0,
+    "budget_max": 55.0,
+    "stock": 36,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 6,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "正常吃饭"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "白领",
+      "晚餐轻食"
+    ],
+    "unsuitable_people": [
+      "重口味人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "低油",
+      "低脂"
+    ],
+    "allergy_note": "含鸡蛋",
+    "need_heat": false,
+    "description": "卤牛腱配蔬菜和煎蛋，适合轻负担正餐。",
+    "ingredients": "卤牛腱、煎蛋、西蓝花、玉米粒",
+    "add_on": "加牛筋丸汤",
+    "ai_summary": "轻脂卤牛腱能量碗：卤牛腱配蔬菜和煎蛋，适合轻负担正餐。 售价39.9元，规格卤牛腱120g+蔬菜+煎蛋，适合减脂高蛋白,正常吃饭，口味清淡/不辣。",
+    "test_note": "测试减脂场景"
+  },
+  {
+    "product_id": "P002",
+    "name": "黑椒安格斯牛肉饭",
+    "category": "主食饭面",
+    "sub_category": "盖饭",
+    "is_combo": false,
+    "price": 32.9,
+    "cost": 18.5,
+    "gross_margin": 0.43768996960486317,
+    "spec": "牛肉90g+米饭+洋葱",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 30.0,
+    "budget_max": 50.0,
+    "stock": 48,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "微辣",
+    "scene_tags": [
+      "正常吃饭",
+      "一个人吃饭"
+    ],
+    "suitable_people": [
+      "上班族",
+      "学生",
+      "想吃饱的人"
+    ],
+    "unsuitable_people": [
+      "严格减脂人群"
+    ],
+    "diet_tags": [
+      "饱腹",
+      "牛肉主食"
+    ],
+    "allergy_note": "含黑椒、洋葱",
+    "need_heat": false,
+    "description": "黑椒风味牛肉盖饭，适合一个人快速吃饱。",
+    "ingredients": "安格斯牛肉片、米饭、洋葱、黑椒汁",
+    "add_on": "加煎蛋",
+    "ai_summary": "黑椒安格斯牛肉饭：黑椒风味牛肉盖饭，适合一个人快速吃饱。 售价32.9元，规格牛肉90g+米饭+洋葱，适合正常吃饭,一个人吃饭，口味正常/微辣。",
+    "test_note": "测试单人饭场景"
+  },
+  {
+    "product_id": "P003",
+    "name": "番茄慢炖牛腩饭",
+    "category": "主食饭面",
+    "sub_category": "盖饭",
+    "is_combo": false,
+    "price": 36.9,
+    "cost": 20.8,
+    "gross_margin": 0.4363143631436314,
+    "spec": "牛腩110g+米饭",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 35.0,
+    "budget_max": 55.0,
+    "stock": 32,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 8,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "正常吃饭",
+      "孩子吃"
+    ],
+    "suitable_people": [
+      "孩子",
+      "老人",
+      "不吃辣人群"
+    ],
+    "unsuitable_people": [
+      "不吃番茄人群"
+    ],
+    "diet_tags": [
+      "不辣",
+      "软烂",
+      "饱腹"
+    ],
+    "allergy_note": "番茄风味",
+    "need_heat": false,
+    "description": "番茄牛腩口味温和，牛腩炖得软烂。",
+    "ingredients": "牛腩、番茄、米饭",
+    "add_on": "加牛肉饼",
+    "ai_summary": "番茄慢炖牛腩饭：番茄牛腩口味温和，牛腩炖得软烂。 售价36.9元，规格牛腩110g+米饭，适合正常吃饭,孩子吃，口味正常/不辣。",
+    "test_note": "测试孩子不辣场景"
+  },
+  {
+    "product_id": "P004",
+    "name": "湘式和牛碎肉拌饭",
+    "category": "主食饭面",
+    "sub_category": "拌饭",
+    "is_combo": false,
+    "price": 29.9,
+    "cost": 16.0,
+    "gross_margin": 0.4648829431438127,
+    "spec": "和牛碎肉80g+米饭",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 25.0,
+    "budget_max": 45.0,
+    "stock": 58,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "中辣",
+    "scene_tags": [
+      "想吃辣解馋",
+      "正常吃饭"
+    ],
+    "suitable_people": [
+      "爱吃辣人群",
+      "年轻顾客"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃辣人群"
+    ],
+    "diet_tags": [
+      "下饭",
+      "辣味"
+    ],
+    "allergy_note": "含辣椒、葱蒜",
+    "need_heat": false,
+    "description": "湘式小炒风味，和牛碎肉香辣下饭。",
+    "ingredients": "和牛碎肉、米饭、辣椒、酸豆角",
+    "add_on": "加牛肉酱",
+    "ai_summary": "湘式和牛碎肉拌饭：湘式小炒风味，和牛碎肉香辣下饭。 售价29.9元，规格和牛碎肉80g+米饭，适合想吃辣解馋,正常吃饭，口味重口味/中辣。",
+    "test_note": "测试辣味主食"
+  },
+  {
+    "product_id": "P005",
+    "name": "酸豆角牛肉碎饭",
+    "category": "主食饭面",
+    "sub_category": "拌饭",
+    "is_combo": false,
+    "price": 28.9,
+    "cost": 15.5,
+    "gross_margin": 0.46366782006920415,
+    "spec": "牛肉碎90g+米饭",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 25.0,
+    "budget_max": 45.0,
+    "stock": 40,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "微辣",
+    "scene_tags": [
+      "正常吃饭",
+      "想吃辣解馋"
+    ],
+    "suitable_people": [
+      "爱酸辣口味顾客"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃酸人群"
+    ],
+    "diet_tags": [
+      "开胃",
+      "夏季"
+    ],
+    "allergy_note": "含酸豆角、辣椒",
+    "need_heat": false,
+    "description": "酸豆角搭配牛肉碎，夏天开胃好入口。",
+    "ingredients": "牛肉碎、酸豆角、米饭",
+    "add_on": "加牛筋丸汤",
+    "ai_summary": "酸豆角牛肉碎饭：酸豆角搭配牛肉碎，夏天开胃好入口。 售价28.9元，规格牛肉碎90g+米饭，适合正常吃饭,想吃辣解馋，口味重口味/微辣。",
+    "test_note": "测试夏季推荐"
+  },
+  {
+    "product_id": "P006",
+    "name": "咖喱牛腩饭",
+    "category": "主食饭面",
+    "sub_category": "盖饭",
+    "is_combo": false,
+    "price": 34.9,
+    "cost": 19.0,
+    "gross_margin": 0.45558739255014324,
+    "spec": "牛腩100g+米饭",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 30.0,
+    "budget_max": 55.0,
+    "stock": 25,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 7,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "正常吃饭",
+      "孩子吃"
+    ],
+    "suitable_people": [
+      "不吃辣人群",
+      "孩子"
+    ],
+    "unsuitable_people": [
+      "严格清淡人群"
+    ],
+    "diet_tags": [
+      "饱腹",
+      "不辣"
+    ],
+    "allergy_note": "含咖喱、奶制品风险",
+    "need_heat": false,
+    "description": "咖喱风味浓郁但不辣，适合想吃饱。",
+    "ingredients": "牛腩、咖喱、土豆、米饭",
+    "add_on": "加煎蛋",
+    "ai_summary": "咖喱牛腩饭：咖喱风味浓郁但不辣，适合想吃饱。 售价34.9元，规格牛腩100g+米饭，适合正常吃饭,孩子吃，口味正常/不辣。",
+    "test_note": "测试咖喱"
+  },
+  {
+    "product_id": "P007",
+    "name": "UFO和牛汉堡",
+    "category": "主食饭面",
+    "sub_category": "汉堡",
+    "is_combo": false,
+    "price": 26.9,
+    "cost": 14.5,
+    "gross_margin": 0.46096654275092935,
+    "spec": "单个UFO造型汉堡",
+    "unit": "个",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 25.0,
+    "budget_max": 40.0,
+    "stock": 22,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 4,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "一个人吃饭",
+      "孩子吃",
+      "想解馋"
+    ],
+    "suitable_people": [
+      "孩子",
+      "年轻顾客",
+      "外带顾客"
+    ],
+    "unsuitable_people": [
+      "严格减脂人群"
+    ],
+    "diet_tags": [
+      "方便携带",
+      "不辣"
+    ],
+    "allergy_note": "含面包、蛋奶可能",
+    "need_heat": false,
+    "description": "UFO造型牛肉汉堡，适合外带和孩子尝鲜。",
+    "ingredients": "汉堡胚、和牛肉饼、生菜、酱料",
+    "add_on": "加牛肉丸汤",
+    "ai_summary": "UFO和牛汉堡：UFO造型牛肉汉堡，适合外带和孩子尝鲜。 售价26.9元，规格单个UFO造型汉堡，适合一个人吃饭,孩子吃,想解馋，口味正常/不辣。",
+    "test_note": "测试造型产品"
+  },
+  {
+    "product_id": "P008",
+    "name": "鸡蛋炒牛肉馄饨",
+    "category": "主食饭面",
+    "sub_category": "炒馄饨",
+    "is_combo": false,
+    "price": 19.9,
+    "cost": 10.5,
+    "gross_margin": 0.47236180904522607,
+    "spec": "牛肉馄饨12个+鸡蛋",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 15.0,
+    "budget_max": 30.0,
+    "stock": 60,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 6,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "一个人吃饭",
+      "孩子吃"
+    ],
+    "suitable_people": [
+      "孩子",
+      "学生",
+      "预算低顾客"
+    ],
+    "unsuitable_people": [
+      "严格减脂人群"
+    ],
+    "diet_tags": [
+      "主食",
+      "不辣"
+    ],
+    "allergy_note": "含鸡蛋、面皮",
+    "need_heat": false,
+    "description": "鸡蛋炒牛肉馄饨，口味温和，价格友好。",
+    "ingredients": "牛肉馄饨、鸡蛋、青菜",
+    "add_on": "加牛肉酱",
+    "ai_summary": "鸡蛋炒牛肉馄饨：鸡蛋炒牛肉馄饨，口味温和，价格友好。 售价19.9元，规格牛肉馄饨12个+鸡蛋，适合一个人吃饭,孩子吃，口味正常/不辣。",
+    "test_note": "测试低价产品"
+  },
+  {
+    "product_id": "P009",
+    "name": "湘式和牛炒意面",
+    "category": "主食饭面",
+    "sub_category": "炒面",
+    "is_combo": false,
+    "price": 24.9,
+    "cost": 13.2,
+    "gross_margin": 0.46987951807228917,
+    "spec": "意面260g",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 20.0,
+    "budget_max": 35.0,
+    "stock": 34,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 6,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "微辣",
+    "scene_tags": [
+      "想吃辣解馋",
+      "一个人吃饭"
+    ],
+    "suitable_people": [
+      "年轻顾客",
+      "爱吃面食人群"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃辣人群"
+    ],
+    "diet_tags": [
+      "主食",
+      "香辣"
+    ],
+    "allergy_note": "含麸质、辣椒",
+    "need_heat": false,
+    "description": "意面配和牛碎肉，湘式香辣口味。",
+    "ingredients": "意面、和牛碎肉、辣椒",
+    "add_on": "加UFO汉堡",
+    "ai_summary": "湘式和牛炒意面：意面配和牛碎肉，湘式香辣口味。 售价24.9元，规格意面260g，适合想吃辣解馋,一个人吃饭，口味重口味/微辣。",
+    "test_note": "测试面食"
+  },
+  {
+    "product_id": "P010",
+    "name": "纯血和牛蛋白饭",
+    "category": "主食饭面",
+    "sub_category": "盖饭",
+    "is_combo": false,
+    "price": 49.9,
+    "cost": 30.0,
+    "gross_margin": 0.39879759519038077,
+    "spec": "熟和牛100g+米饭+煎蛋",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 45.0,
+    "budget_max": 65.0,
+    "stock": 18,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 7,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "正常吃饭"
+    ],
+    "suitable_people": [
+      "高客单顾客",
+      "减脂人群"
+    ],
+    "unsuitable_people": [
+      "预算低顾客"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "和牛"
+    ],
+    "allergy_note": "含鸡蛋",
+    "need_heat": false,
+    "description": "熟和牛配米饭和煎蛋，突出高品质蛋白。",
+    "ingredients": "熟和牛、米饭、煎蛋、蔬菜",
+    "add_on": "加牛肉丸汤",
+    "ai_summary": "纯血和牛蛋白饭：熟和牛配米饭和煎蛋，突出高品质蛋白。 售价49.9元，规格熟和牛100g+米饭+煎蛋，适合减脂高蛋白,正常吃饭，口味清淡/不辣。",
+    "test_note": "测试高客单单品"
+  },
+  {
+    "product_id": "P011",
+    "name": "牛肉丸清汤",
+    "category": "汤品",
+    "sub_category": "汤",
+    "is_combo": false,
+    "price": 12.9,
+    "cost": 6.0,
+    "gross_margin": 0.5348837209302326,
+    "spec": "牛肉丸5颗",
+    "unit": "碗",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 10.0,
+    "budget_max": 25.0,
+    "stock": 80,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 3,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "孩子吃",
+      "加购"
+    ],
+    "suitable_people": [
+      "孩子",
+      "老人",
+      "搭配主食顾客"
+    ],
+    "unsuitable_people": [
+      "不吃丸类人群"
+    ],
+    "diet_tags": [
+      "不辣",
+      "汤品"
+    ],
+    "allergy_note": "可能含淀粉",
+    "need_heat": false,
+    "description": "清汤牛肉丸，适合搭配饭类。",
+    "ingredients": "牛肉丸、清汤、青菜",
+    "add_on": "搭配盖饭",
+    "ai_summary": "牛肉丸清汤：清汤牛肉丸，适合搭配饭类。 售价12.9元，规格牛肉丸5颗，适合孩子吃,加购，口味清淡/不辣。",
+    "test_note": "测试加购汤"
+  },
+  {
+    "product_id": "P012",
+    "name": "番茄牛肉丸汤",
+    "category": "汤品",
+    "sub_category": "汤",
+    "is_combo": false,
+    "price": 15.9,
+    "cost": 7.8,
+    "gross_margin": 0.509433962264151,
+    "spec": "牛肉丸5颗+番茄汤",
+    "unit": "碗",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 12.0,
+    "budget_max": 28.0,
+    "stock": 56,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 4,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "孩子吃",
+      "加购"
+    ],
+    "suitable_people": [
+      "孩子",
+      "不吃辣人群"
+    ],
+    "unsuitable_people": [
+      "不吃番茄人群"
+    ],
+    "diet_tags": [
+      "汤品",
+      "不辣"
+    ],
+    "allergy_note": "番茄风味",
+    "need_heat": false,
+    "description": "番茄汤底酸甜温和，适合配主食。",
+    "ingredients": "牛肉丸、番茄、青菜",
+    "add_on": "搭配牛肉饭",
+    "ai_summary": "番茄牛肉丸汤：番茄汤底酸甜温和，适合配主食。 售价15.9元，规格牛肉丸5颗+番茄汤，适合孩子吃,加购，口味正常/不辣。",
+    "test_note": "测试汤品"
+  },
+  {
+    "product_id": "P013",
+    "name": "麻辣手撕牛肉",
+    "category": "熟食小吃",
+    "sub_category": "麻辣熟食",
+    "is_combo": false,
+    "price": 39.9,
+    "cost": 21.0,
+    "gross_margin": 0.47368421052631576,
+    "spec": "150g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 35.0,
+    "budget_max": 60.0,
+    "stock": 30,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 2,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "麻辣",
+    "scene_tags": [
+      "想吃辣解馋",
+      "下酒"
+    ],
+    "suitable_people": [
+      "爱吃辣人群",
+      "下酒人群"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃辣人群"
+    ],
+    "diet_tags": [
+      "麻辣",
+      "即食"
+    ],
+    "allergy_note": "含辣椒、花椒",
+    "need_heat": false,
+    "description": "麻辣手撕牛肉，肉感足，适合解馋。",
+    "ingredients": "牛肉、辣椒、花椒、菜籽油",
+    "add_on": "加牛肉酱",
+    "ai_summary": "麻辣手撕牛肉：麻辣手撕牛肉，肉感足，适合解馋。 售价39.9元，规格150g，适合想吃辣解馋,下酒，口味重口味/麻辣。",
+    "test_note": "测试麻辣熟食"
+  },
+  {
+    "product_id": "P014",
+    "name": "大块牙签牛肉",
+    "category": "熟食小吃",
+    "sub_category": "麻辣熟食",
+    "is_combo": false,
+    "price": 29.9,
+    "cost": 15.8,
+    "gross_margin": 0.471571906354515,
+    "spec": "200g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 25.0,
+    "budget_max": 50.0,
+    "stock": 42,
+    "status": "上架",
+    "priority": 10,
+    "prep_minutes": 2,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "麻辣",
+    "scene_tags": [
+      "想吃辣解馋",
+      "直播爆品"
+    ],
+    "suitable_people": [
+      "爱吃辣人群",
+      "年轻顾客"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃辣人群"
+    ],
+    "diet_tags": [
+      "麻辣",
+      "即食"
+    ],
+    "allergy_note": "含辣椒、花椒",
+    "need_heat": false,
+    "description": "大块牙签牛肉，适合零食和下酒。",
+    "ingredients": "整块牛肉切块、辣椒、花椒",
+    "add_on": "加清汤解辣",
+    "ai_summary": "大块牙签牛肉：大块牙签牛肉，适合零食和下酒。 售价29.9元，规格200g，适合想吃辣解馋,直播爆品，口味重口味/麻辣。",
+    "test_note": "测试爆品权重"
+  },
+  {
+    "product_id": "P015",
+    "name": "微辣牛肉条",
+    "category": "熟食小吃",
+    "sub_category": "微辣熟食",
+    "is_combo": false,
+    "price": 33.9,
+    "cost": 18.0,
+    "gross_margin": 0.4690265486725663,
+    "spec": "160g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 30.0,
+    "budget_max": 55.0,
+    "stock": 28,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 2,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "微辣",
+    "scene_tags": [
+      "想吃辣解馋"
+    ],
+    "suitable_people": [
+      "微辣人群",
+      "不想太辣顾客"
+    ],
+    "unsuitable_people": [
+      "完全不吃辣人群"
+    ],
+    "diet_tags": [
+      "微辣",
+      "即食"
+    ],
+    "allergy_note": "含辣椒",
+    "need_heat": false,
+    "description": "微辣牛肉条，辣度低于麻辣系列。",
+    "ingredients": "牛肉条、香辛料",
+    "add_on": "加牛肉丸汤",
+    "ai_summary": "微辣牛肉条：微辣牛肉条，辣度低于麻辣系列。 售价33.9元，规格160g，适合想吃辣解馋，口味正常/微辣。",
+    "test_note": "测试辣度区分"
+  },
+  {
+    "product_id": "P016",
+    "name": "酱香卤牛肋条",
+    "category": "熟食小吃",
+    "sub_category": "卤味",
+    "is_combo": false,
+    "price": 45.9,
+    "cost": 27.0,
+    "gross_margin": 0.4117647058823529,
+    "spec": "180g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 40.0,
+    "budget_max": 70.0,
+    "stock": 16,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 4,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "正常吃饭",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "不吃辣人群",
+      "家庭"
+    ],
+    "unsuitable_people": [
+      "严格低脂人群"
+    ],
+    "diet_tags": [
+      "酱香",
+      "即食"
+    ],
+    "allergy_note": "脂肪略高",
+    "need_heat": true,
+    "description": "酱香牛肋条，肉香浓，适合配饭或外带。",
+    "ingredients": "牛肋条、卤汁",
+    "add_on": "搭配米饭或青菜",
+    "ai_summary": "酱香卤牛肋条：酱香牛肋条，肉香浓，适合配饭或外带。 售价45.9元，规格180g，适合正常吃饭,家庭备餐，口味正常/不辣。",
+    "test_note": "测试较高价熟食"
+  },
+  {
+    "product_id": "P017",
+    "name": "原切卤牛腱",
+    "category": "熟食小吃",
+    "sub_category": "卤味",
+    "is_combo": false,
+    "price": 29.9,
+    "cost": 17.5,
+    "gross_margin": 0.4147157190635451,
+    "spec": "150g",
+    "unit": "包",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 25.0,
+    "budget_max": 45.0,
+    "stock": 45,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 2,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "家庭备餐"
+    ],
+    "unsuitable_people": [
+      "重口味人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "即食"
+    ],
+    "allergy_note": "无",
+    "need_heat": false,
+    "description": "原切卤牛腱，口味清爽，适合直接吃。",
+    "ingredients": "牛腱、卤汁",
+    "add_on": "加蔬菜或汤",
+    "ai_summary": "原切卤牛腱：原切卤牛腱，口味清爽，适合直接吃。 售价29.9元，规格150g，适合减脂高蛋白,家庭备餐，口味清淡/不辣。",
+    "test_note": "测试熟食备餐"
+  },
+  {
+    "product_id": "P018",
+    "name": "牛肉酱拌饭瓶",
+    "category": "熟食小吃",
+    "sub_category": "酱料",
+    "is_combo": false,
+    "price": 22.9,
+    "cost": 10.0,
+    "gross_margin": 0.5633187772925764,
+    "spec": "180g/瓶",
+    "unit": "瓶",
+    "people_min": 1,
+    "people_max": 4,
+    "budget_min": 20.0,
+    "budget_max": 40.0,
+    "stock": 70,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "微辣",
+    "scene_tags": [
+      "加购",
+      "家庭备餐",
+      "想吃辣解馋"
+    ],
+    "suitable_people": [
+      "家庭备餐",
+      "拌饭人群"
+    ],
+    "unsuitable_people": [
+      "孩子少量",
+      "不吃辣人群"
+    ],
+    "diet_tags": [
+      "酱料",
+      "下饭"
+    ],
+    "allergy_note": "含辣椒、豆制品可能",
+    "need_heat": false,
+    "description": "牛肉酱适合拌饭拌面，也适合加购。",
+    "ingredients": "牛肉粒、辣椒、香菇、酱料",
+    "add_on": "搭配水饺或饭类",
+    "ai_summary": "牛肉酱拌饭瓶：牛肉酱适合拌饭拌面，也适合加购。 售价22.9元，规格180g/瓶，适合加购,家庭备餐,想吃辣解馋，口味重口味/微辣。",
+    "test_note": "测试加购酱料"
+  },
+  {
+    "product_id": "P019",
+    "name": "儿童牛肉水饺",
+    "category": "儿童友好",
+    "sub_category": "饺子",
+    "is_combo": false,
+    "price": 15.0,
+    "cost": 8.2,
+    "gross_margin": 0.45333333333333337,
+    "spec": "15个/盒",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 15.0,
+    "budget_max": 30.0,
+    "stock": 90,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 8,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "孩子吃",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "孩子",
+      "家庭"
+    ],
+    "unsuitable_people": [
+      "不吃面食人群"
+    ],
+    "diet_tags": [
+      "不辣",
+      "冷冻可煮"
+    ],
+    "allergy_note": "含麸质",
+    "need_heat": true,
+    "description": "儿童友好牛肉水饺，口味清淡。",
+    "ingredients": "牛肉馅、面皮",
+    "add_on": "搭配番茄牛肉丸汤",
+    "ai_summary": "儿童牛肉水饺：儿童友好牛肉水饺，口味清淡。 售价15.0元，规格15个/盒，适合孩子吃,家庭备餐，口味清淡/不辣。",
+    "test_note": "测试儿童友好"
+  },
+  {
+    "product_id": "P020",
+    "name": "迷你牛肉饼",
+    "category": "儿童友好",
+    "sub_category": "牛肉饼",
+    "is_combo": false,
+    "price": 12.0,
+    "cost": 6.5,
+    "gross_margin": 0.4583333333333333,
+    "spec": "100g/片",
+    "unit": "片",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 10.0,
+    "budget_max": 25.0,
+    "stock": 75,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "孩子吃",
+      "加购"
+    ],
+    "suitable_people": [
+      "孩子",
+      "早餐顾客"
+    ],
+    "unsuitable_people": [
+      "严格减脂人群"
+    ],
+    "diet_tags": [
+      "不辣",
+      "可煎"
+    ],
+    "allergy_note": "含面粉少量可能",
+    "need_heat": true,
+    "description": "迷你牛肉饼，适合孩子早餐或加餐。",
+    "ingredients": "牛肉馅、饼皮",
+    "add_on": "搭配水饺",
+    "ai_summary": "迷你牛肉饼：迷你牛肉饼，适合孩子早餐或加餐。 售价12.0元，规格100g/片，适合孩子吃,加购，口味正常/不辣。",
+    "test_note": "测试加购儿童"
+  },
+  {
+    "product_id": "P021",
+    "name": "儿童成长牛肉小套餐",
+    "category": "家庭套餐",
+    "sub_category": "儿童套餐",
+    "is_combo": true,
+    "price": 58.0,
+    "cost": 31.0,
+    "gross_margin": 0.46551724137931033,
+    "spec": "水饺1盒+牛肉饼2片+牛肉丸汤",
+    "unit": "套",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 50.0,
+    "budget_max": 70.0,
+    "stock": 25,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 10,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "孩子吃",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "孩子",
+      "一大一小"
+    ],
+    "unsuitable_people": [
+      "爱吃辣人群"
+    ],
+    "diet_tags": [
+      "不辣",
+      "套餐"
+    ],
+    "allergy_note": "含面食、鸡蛋风险视制作",
+    "need_heat": true,
+    "description": "给孩子吃的温和牛肉组合。",
+    "ingredients": "儿童牛肉水饺、迷你牛肉饼、牛肉丸清汤",
+    "add_on": "加牛肉酱给大人",
+    "ai_summary": "儿童成长牛肉小套餐：给孩子吃的温和牛肉组合。 售价58.0元，规格水饺1盒+牛肉饼2片+牛肉丸汤，适合孩子吃,家庭备餐，口味清淡/不辣。",
+    "test_note": "测试套餐"
+  },
+  {
+    "product_id": "P022",
+    "name": "高蛋白减脂四件套",
+    "category": "家庭套餐",
+    "sub_category": "减脂套餐",
+    "is_combo": true,
+    "price": 88.0,
+    "cost": 49.0,
+    "gross_margin": 0.4431818181818182,
+    "spec": "卤牛腱+鸡胸肉+牛筋丸+板腱薄片",
+    "unit": "套",
+    "people_min": 1,
+    "people_max": 3,
+    "budget_min": 80.0,
+    "budget_max": 100.0,
+    "stock": 20,
+    "status": "上架",
+    "priority": 10,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "健身人群"
+    ],
+    "unsuitable_people": [
+      "想吃辣解馋人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "低油"
+    ],
+    "allergy_note": "含牛肉、鸡肉",
+    "need_heat": true,
+    "description": "适合一到三人的高蛋白备餐组合。",
+    "ingredients": "卤牛腱、鸡胸肉、牛筋丸、板腱薄片",
+    "add_on": "加蔬菜包",
+    "ai_summary": "高蛋白减脂四件套：适合一到三人的高蛋白备餐组合。 售价88.0元，规格卤牛腱+鸡胸肉+牛筋丸+板腱薄片，适合减脂高蛋白,家庭备餐，口味清淡/不辣。",
+    "test_note": "测试核心套餐"
+  },
+  {
+    "product_id": "P023",
+    "name": "家庭牛肉火锅备餐包",
+    "category": "家庭套餐",
+    "sub_category": "家庭套餐",
+    "is_combo": true,
+    "price": 128.0,
+    "cost": 78.0,
+    "gross_margin": 0.390625,
+    "spec": "肥牛卷+牛肉丸+蔬菜+蘸料",
+    "unit": "套",
+    "people_min": 3,
+    "people_max": 4,
+    "budget_min": 120.0,
+    "budget_max": 160.0,
+    "stock": 12,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 15,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "一家人备餐",
+      "聚餐"
+    ],
+    "suitable_people": [
+      "家庭",
+      "朋友聚餐"
+    ],
+    "unsuitable_people": [
+      "单人顾客"
+    ],
+    "diet_tags": [
+      "家庭",
+      "火锅"
+    ],
+    "allergy_note": "含蘸料过敏风险",
+    "need_heat": true,
+    "description": "适合3-4人家庭火锅的牛肉备餐包。",
+    "ingredients": "肥牛卷、牛肉丸、蔬菜、蘸料",
+    "add_on": "加牛仔骨",
+    "ai_summary": "家庭牛肉火锅备餐包：适合3-4人家庭火锅的牛肉备餐包。 售价128.0元，规格肥牛卷+牛肉丸+蔬菜+蘸料，适合一家人备餐,聚餐，口味正常/可选。",
+    "test_note": "测试家庭场景"
+  },
+  {
+    "product_id": "P024",
+    "name": "露营烤肉基础包",
+    "category": "家庭套餐",
+    "sub_category": "烤肉套餐",
+    "is_combo": true,
+    "price": 198.0,
+    "cost": 121.0,
+    "gross_margin": 0.3888888888888889,
+    "spec": "烤肉5盒+蘸料+生菜",
+    "unit": "套",
+    "people_min": 3,
+    "people_max": 5,
+    "budget_min": 180.0,
+    "budget_max": 230.0,
+    "stock": 8,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 20,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "烤肉聚餐",
+      "一家人备餐"
+    ],
+    "suitable_people": [
+      "露营",
+      "朋友聚餐"
+    ],
+    "unsuitable_people": [
+      "单人顾客",
+      "减脂严格人群"
+    ],
+    "diet_tags": [
+      "烤肉",
+      "套餐"
+    ],
+    "allergy_note": "含蘸料过敏风险",
+    "need_heat": true,
+    "description": "适合3-5人的基础烤肉组合。",
+    "ingredients": "安格斯板腱、肥牛、牛仔骨、生菜、蘸料",
+    "add_on": "加虾或鸡翅",
+    "ai_summary": "露营烤肉基础包：适合3-5人的基础烤肉组合。 售价198.0元，规格烤肉5盒+蘸料+生菜，适合烤肉聚餐,一家人备餐，口味正常/可选。",
+    "test_note": "测试高客单套餐"
+  },
+  {
+    "product_id": "P025",
+    "name": "露营烤肉豪华包",
+    "category": "家庭套餐",
+    "sub_category": "烤肉套餐",
+    "is_combo": true,
+    "price": 298.0,
+    "cost": 182.0,
+    "gross_margin": 0.38926174496644295,
+    "spec": "烤肉7盒+虾+鸡翅+蘸料",
+    "unit": "套",
+    "people_min": 4,
+    "people_max": 6,
+    "budget_min": 260.0,
+    "budget_max": 330.0,
+    "stock": 6,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 25,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "烤肉聚餐",
+      "家庭聚餐"
+    ],
+    "suitable_people": [
+      "露营",
+      "家庭",
+      "朋友聚餐"
+    ],
+    "unsuitable_people": [
+      "单人顾客"
+    ],
+    "diet_tags": [
+      "烤肉",
+      "高客单"
+    ],
+    "allergy_note": "含海鲜、鸡肉",
+    "need_heat": true,
+    "description": "适合多人露营和家庭烤肉。",
+    "ingredients": "烤肉7盒、虾、鸡翅中、鸡翅根、蘸料、餐具",
+    "add_on": "加饮品或蔬菜",
+    "ai_summary": "露营烤肉豪华包：适合多人露营和家庭烤肉。 售价298.0元，规格烤肉7盒+虾+鸡翅+蘸料，适合烤肉聚餐,家庭聚餐，口味正常/可选。",
+    "test_note": "测试高客单"
+  },
+  {
+    "product_id": "P026",
+    "name": "安格斯板腱薄片",
+    "category": "生鲜烤肉",
+    "sub_category": "原切牛肉",
+    "is_combo": false,
+    "price": 29.9,
+    "cost": 18.0,
+    "gross_margin": 0.39799331103678925,
+    "spec": "100g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 25.0,
+    "budget_max": 50.0,
+    "stock": 55,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "烤肉聚餐"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "烤肉人群"
+    ],
+    "unsuitable_people": [
+      "不做饭顾客"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "生鲜"
+    ],
+    "allergy_note": "需充分加热",
+    "need_heat": true,
+    "description": "原切板腱薄片，适合煎烤或备餐。",
+    "ingredients": "安格斯板腱",
+    "add_on": "加蘸料或生菜",
+    "ai_summary": "安格斯板腱薄片：原切板腱薄片，适合煎烤或备餐。 售价29.9元，规格100g，适合减脂高蛋白,烤肉聚餐，口味清淡/不辣。",
+    "test_note": "测试生鲜"
+  },
+  {
+    "product_id": "P027",
+    "name": "安格斯肥牛卷",
+    "category": "生鲜烤肉",
+    "sub_category": "火锅牛肉",
+    "is_combo": false,
+    "price": 38.0,
+    "cost": 24.5,
+    "gross_margin": 0.35526315789473684,
+    "spec": "250g",
+    "unit": "盒",
+    "people_min": 2,
+    "people_max": 3,
+    "budget_min": 35.0,
+    "budget_max": 60.0,
+    "stock": 38,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "家庭备餐",
+      "火锅"
+    ],
+    "suitable_people": [
+      "家庭",
+      "火锅人群"
+    ],
+    "unsuitable_people": [
+      "严格低脂人群"
+    ],
+    "diet_tags": [
+      "火锅",
+      "生鲜"
+    ],
+    "allergy_note": "需充分加热",
+    "need_heat": true,
+    "description": "肥牛卷适合火锅和快手炒菜。",
+    "ingredients": "安格斯肥牛卷",
+    "add_on": "加牛肉丸",
+    "ai_summary": "安格斯肥牛卷：肥牛卷适合火锅和快手炒菜。 售价38.0元，规格250g，适合家庭备餐,火锅，口味正常/不辣。",
+    "test_note": "测试火锅生鲜"
+  },
+  {
+    "product_id": "P028",
+    "name": "谷饲牛仔骨",
+    "category": "生鲜烤肉",
+    "sub_category": "带骨烤肉",
+    "is_combo": false,
+    "price": 49.9,
+    "cost": 31.0,
+    "gross_margin": 0.3787575150300601,
+    "spec": "200g",
+    "unit": "盒",
+    "people_min": 2,
+    "people_max": 3,
+    "budget_min": 45.0,
+    "budget_max": 80.0,
+    "stock": 24,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "烤肉聚餐",
+      "想解馋"
+    ],
+    "suitable_people": [
+      "烤肉人群",
+      "爱啃骨头人群"
+    ],
+    "unsuitable_people": [
+      "孩子小龄",
+      "老人"
+    ],
+    "diet_tags": [
+      "烤肉",
+      "带骨"
+    ],
+    "allergy_note": "带骨需注意",
+    "need_heat": true,
+    "description": "带骨牛仔骨，适合煎烤。",
+    "ingredients": "牛仔骨",
+    "add_on": "加生菜蘸料",
+    "ai_summary": "谷饲牛仔骨：带骨牛仔骨，适合煎烤。 售价49.9元，规格200g，适合烤肉聚餐,想解馋，口味正常/可选。",
+    "test_note": "测试替代推荐"
+  },
+  {
+    "product_id": "P029",
+    "name": "M6和牛烤肉片",
+    "category": "生鲜烤肉",
+    "sub_category": "和牛烤肉",
+    "is_combo": false,
+    "price": 69.9,
+    "cost": 43.0,
+    "gross_margin": 0.38483547925608014,
+    "spec": "100g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 60.0,
+    "budget_max": 100.0,
+    "stock": 10,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "烤肉聚餐",
+      "高品质尝鲜"
+    ],
+    "suitable_people": [
+      "高客单顾客",
+      "和牛爱好者"
+    ],
+    "unsuitable_people": [
+      "预算低顾客"
+    ],
+    "diet_tags": [
+      "和牛",
+      "高品质"
+    ],
+    "allergy_note": "需充分加热",
+    "need_heat": true,
+    "description": "M6和牛烤肉片，适合高品质尝鲜。",
+    "ingredients": "M6和牛",
+    "add_on": "加蘸料",
+    "ai_summary": "M6和牛烤肉片：M6和牛烤肉片，适合高品质尝鲜。 售价69.9元，规格100g，适合烤肉聚餐,高品质尝鲜，口味正常/不辣。",
+    "test_note": "测试高价单品"
+  },
+  {
+    "product_id": "P030",
+    "name": "草饲牛腩块",
+    "category": "生鲜烤肉",
+    "sub_category": "炖煮牛肉",
+    "is_combo": false,
+    "price": 35.0,
+    "cost": 25.0,
+    "gross_margin": 0.2857142857142857,
+    "spec": "500g",
+    "unit": "斤",
+    "people_min": 3,
+    "people_max": 5,
+    "budget_min": 35.0,
+    "budget_max": 80.0,
+    "stock": 30,
+    "status": "上架",
+    "priority": 5,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "家庭炖煮"
+    ],
+    "unsuitable_people": [
+      "不会做饭顾客"
+    ],
+    "diet_tags": [
+      "炖煮",
+      "生鲜"
+    ],
+    "allergy_note": "需长时间炖煮",
+    "need_heat": true,
+    "description": "适合番茄牛腩、咖喱牛腩等家常菜。",
+    "ingredients": "牛腩块",
+    "add_on": "加番茄调料包",
+    "ai_summary": "草饲牛腩块：适合番茄牛腩、咖喱牛腩等家常菜。 售价35.0元，规格500g，适合家庭备餐，口味正常/不辣。",
+    "test_note": "测试生鲜炖煮"
+  },
+  {
+    "product_id": "P031",
+    "name": "草饲牛肋排",
+    "category": "生鲜烤肉",
+    "sub_category": "炖煮牛肉",
+    "is_combo": false,
+    "price": 26.0,
+    "cost": 20.0,
+    "gross_margin": 0.23076923076923078,
+    "spec": "500g",
+    "unit": "斤",
+    "people_min": 3,
+    "people_max": 5,
+    "budget_min": 25.0,
+    "budget_max": 70.0,
+    "stock": 22,
+    "status": "上架",
+    "priority": 5,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "家庭炖汤"
+    ],
+    "unsuitable_people": [
+      "单人快餐顾客"
+    ],
+    "diet_tags": [
+      "炖煮",
+      "带骨"
+    ],
+    "allergy_note": "带骨需注意",
+    "need_heat": true,
+    "description": "适合炖汤和红烧的牛肋排。",
+    "ingredients": "牛肋排",
+    "add_on": "加牛肉丸",
+    "ai_summary": "草饲牛肋排：适合炖汤和红烧的牛肋排。 售价26.0元，规格500g，适合家庭备餐，口味正常/不辣。",
+    "test_note": "测试低价生鲜"
+  },
+  {
+    "product_id": "P032",
+    "name": "无抗鸡胸肉",
+    "category": "减脂轻食",
+    "sub_category": "鸡肉",
+    "is_combo": false,
+    "price": 15.0,
+    "cost": 8.0,
+    "gross_margin": 0.4666666666666667,
+    "spec": "500g",
+    "unit": "包",
+    "people_min": 1,
+    "people_max": 3,
+    "budget_min": 15.0,
+    "budget_max": 35.0,
+    "stock": 65,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "健身人群"
+    ],
+    "unsuitable_people": [
+      "不吃鸡肉人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "低脂"
+    ],
+    "allergy_note": "鸡肉",
+    "need_heat": true,
+    "description": "低脂鸡胸肉，适合高蛋白备餐。",
+    "ingredients": "鸡胸肉",
+    "add_on": "搭配卤牛腱",
+    "ai_summary": "无抗鸡胸肉：低脂鸡胸肉，适合高蛋白备餐。 售价15.0元，规格500g，适合减脂高蛋白,家庭备餐，口味清淡/不辣。",
+    "test_note": "测试非牛肉商品"
+  },
+  {
+    "product_id": "P033",
+    "name": "低脂牛筋丸",
+    "category": "减脂轻食",
+    "sub_category": "牛丸",
+    "is_combo": false,
+    "price": 23.8,
+    "cost": 13.5,
+    "gross_margin": 0.4327731092436975,
+    "spec": "200g",
+    "unit": "包",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 20.0,
+    "budget_max": 40.0,
+    "stock": 72,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "孩子吃",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "孩子"
+    ],
+    "unsuitable_people": [
+      "不吃丸类人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "低油"
+    ],
+    "allergy_note": "可能含淀粉",
+    "need_heat": true,
+    "description": "低脂牛筋丸，适合煮汤或加餐。",
+    "ingredients": "牛筋丸",
+    "add_on": "搭配蔬菜包",
+    "ai_summary": "低脂牛筋丸：低脂牛筋丸，适合煮汤或加餐。 售价23.8元，规格200g，适合减脂高蛋白,孩子吃,家庭备餐，口味清淡/不辣。",
+    "test_note": "测试牛丸"
+  },
+  {
+    "product_id": "P034",
+    "name": "西蓝花加购包",
+    "category": "加购配菜",
+    "sub_category": "蔬菜",
+    "is_combo": false,
+    "price": 6.9,
+    "cost": 3.0,
+    "gross_margin": 0.5652173913043479,
+    "spec": "100g",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 5.0,
+    "budget_max": 15.0,
+    "stock": 90,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 3,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "加购",
+      "减脂高蛋白"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "孩子"
+    ],
+    "unsuitable_people": [
+      "不吃蔬菜人群"
+    ],
+    "diet_tags": [
+      "蔬菜",
+      "低热量"
+    ],
+    "allergy_note": "无",
+    "need_heat": false,
+    "description": "西蓝花小份加购，适合搭配肉类。",
+    "ingredients": "西蓝花",
+    "add_on": "搭配能量碗或饭类",
+    "ai_summary": "西蓝花加购包：西蓝花小份加购，适合搭配肉类。 售价6.9元，规格100g，适合加购,减脂高蛋白，口味清淡/不辣。",
+    "test_note": "测试蔬菜加购"
+  },
+  {
+    "product_id": "P035",
+    "name": "煎蛋加购",
+    "category": "加购配菜",
+    "sub_category": "蛋类",
+    "is_combo": false,
+    "price": 4.0,
+    "cost": 1.5,
+    "gross_margin": 0.625,
+    "spec": "1枚",
+    "unit": "个",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 3.0,
+    "budget_max": 10.0,
+    "stock": 100,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 2,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "加购",
+      "正常吃饭"
+    ],
+    "suitable_people": [
+      "单人饭顾客"
+    ],
+    "unsuitable_people": [
+      "鸡蛋过敏人群"
+    ],
+    "diet_tags": [
+      "蛋白质",
+      "加购"
+    ],
+    "allergy_note": "含鸡蛋",
+    "need_heat": false,
+    "description": "煎蛋适合盖饭和能量碗加购。",
+    "ingredients": "鸡蛋",
+    "add_on": "搭配盖饭",
+    "ai_summary": "煎蛋加购：煎蛋适合盖饭和能量碗加购。 售价4.0元，规格1枚，适合加购,正常吃饭，口味清淡/不辣。",
+    "test_note": "测试蛋类加购"
+  },
+  {
+    "product_id": "P036",
+    "name": "生菜蘸料包",
+    "category": "加购配菜",
+    "sub_category": "烤肉配菜",
+    "is_combo": false,
+    "price": 9.9,
+    "cost": 4.5,
+    "gross_margin": 0.5454545454545455,
+    "spec": "生菜+蘸料",
+    "unit": "份",
+    "people_min": 2,
+    "people_max": 4,
+    "budget_min": 8.0,
+    "budget_max": 20.0,
+    "stock": 50,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "烤肉聚餐",
+      "加购"
+    ],
+    "suitable_people": [
+      "烤肉顾客"
+    ],
+    "unsuitable_people": [
+      "不吃生菜人群"
+    ],
+    "diet_tags": [
+      "烤肉配菜"
+    ],
+    "allergy_note": "蘸料含芝麻/花生风险",
+    "need_heat": false,
+    "description": "烤肉搭配生菜和蘸料。",
+    "ingredients": "生菜、蘸料",
+    "add_on": "搭配烤肉片",
+    "ai_summary": "生菜蘸料包：烤肉搭配生菜和蘸料。 售价9.9元，规格生菜+蘸料，适合烤肉聚餐,加购，口味正常/可选。",
+    "test_note": "测试烤肉加购"
+  },
+  {
+    "product_id": "P037",
+    "name": "清爽黄瓜萝卜脆",
+    "category": "加购配菜",
+    "sub_category": "小菜",
+    "is_combo": false,
+    "price": 7.9,
+    "cost": 3.2,
+    "gross_margin": 0.5949367088607594,
+    "spec": "120g",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 6.0,
+    "budget_max": 15.0,
+    "stock": 0,
+    "status": "售罄",
+    "priority": 5,
+    "prep_minutes": 1,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "微辣",
+    "scene_tags": [
+      "加购",
+      "夏季"
+    ],
+    "suitable_people": [
+      "夏季开胃人群"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃辣人群"
+    ],
+    "diet_tags": [
+      "小菜",
+      "开胃"
+    ],
+    "allergy_note": "含微辣调味",
+    "need_heat": false,
+    "description": "清爽开胃小菜，适合夏季搭配主食。",
+    "ingredients": "黄瓜、脆萝卜",
+    "add_on": "搭配牛肉饭",
+    "ai_summary": "清爽黄瓜萝卜脆：清爽开胃小菜，适合夏季搭配主食。 售价7.9元，规格120g，适合加购,夏季，口味清淡/微辣。",
+    "test_note": "测试售罄过滤"
+  },
+  {
+    "product_id": "P038",
+    "name": "黑蒜牛腩汤饭",
+    "category": "主食饭面",
+    "sub_category": "汤饭",
+    "is_combo": false,
+    "price": 37.9,
+    "cost": 21.0,
+    "gross_margin": 0.445910290237467,
+    "spec": "牛腩90g+汤饭",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 35.0,
+    "budget_max": 55.0,
+    "stock": 0,
+    "status": "售罄",
+    "priority": 6,
+    "prep_minutes": 8,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "正常吃饭",
+      "老人友好"
+    ],
+    "suitable_people": [
+      "老人",
+      "不吃辣人群"
+    ],
+    "unsuitable_people": [
+      "不吃蒜人群"
+    ],
+    "diet_tags": [
+      "汤饭",
+      "软烂"
+    ],
+    "allergy_note": "含蒜",
+    "need_heat": false,
+    "description": "汤饭口感温和，适合天气冷时。",
+    "ingredients": "牛腩、黑蒜汤、米饭",
+    "add_on": "加卤牛腱",
+    "ai_summary": "黑蒜牛腩汤饭：汤饭口感温和，适合天气冷时。 售价37.9元，规格牛腩90g+汤饭，适合正常吃饭,老人友好，口味正常/不辣。",
+    "test_note": "测试售罄"
+  },
+  {
+    "product_id": "P039",
+    "name": "麻辣牛油拌牛肉面",
+    "category": "主食饭面",
+    "sub_category": "面食",
+    "is_combo": false,
+    "price": 31.9,
+    "cost": 17.0,
+    "gross_margin": 0.4670846394984326,
+    "spec": "面250g+牛肉70g",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 30.0,
+    "budget_max": 50.0,
+    "stock": 20,
+    "status": "下架",
+    "priority": 5,
+    "prep_minutes": 6,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "麻辣",
+    "scene_tags": [
+      "想吃辣解馋"
+    ],
+    "suitable_people": [
+      "爱吃麻辣人群"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "减脂人群"
+    ],
+    "diet_tags": [
+      "麻辣",
+      "主食"
+    ],
+    "allergy_note": "含面、辣椒",
+    "need_heat": false,
+    "description": "麻辣牛油风味，适合重口味。",
+    "ingredients": "牛肉、面、麻辣牛油",
+    "add_on": "加牛肉丸汤",
+    "ai_summary": "麻辣牛油拌牛肉面：麻辣牛油风味，适合重口味。 售价31.9元，规格面250g+牛肉70g，适合想吃辣解馋，口味重口味/麻辣。",
+    "test_note": "测试下架过滤"
+  },
+  {
+    "product_id": "P040",
+    "name": "低温慢煮牛排沙拉",
+    "category": "减脂轻食",
+    "sub_category": "沙拉",
+    "is_combo": false,
+    "price": 46.9,
+    "cost": 27.5,
+    "gross_margin": 0.4136460554371002,
+    "spec": "牛排100g+沙拉",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 40.0,
+    "budget_max": 65.0,
+    "stock": 14,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 7,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "高品质尝鲜"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "白领女性"
+    ],
+    "unsuitable_people": [
+      "想吃热饭人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "低油"
+    ],
+    "allergy_note": "含沙拉酱",
+    "need_heat": false,
+    "description": "牛排搭配沙拉，轻负担但有满足感。",
+    "ingredients": "牛排、沙拉、玉米、圣女果",
+    "add_on": "加牛筋丸",
+    "ai_summary": "低温慢煮牛排沙拉：牛排搭配沙拉，轻负担但有满足感。 售价46.9元，规格牛排100g+沙拉，适合减脂高蛋白,高品质尝鲜，口味清淡/不辣。",
+    "test_note": "测试沙拉"
+  },
+  {
+    "product_id": "P041",
+    "name": "牛肉蔬菜低卡汤",
+    "category": "减脂轻食",
+    "sub_category": "汤品",
+    "is_combo": false,
+    "price": 22.9,
+    "cost": 11.8,
+    "gross_margin": 0.48471615720524014,
+    "spec": "牛肉片60g+蔬菜汤",
+    "unit": "碗",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 20.0,
+    "budget_max": 35.0,
+    "stock": 30,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 4,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "晚餐轻食"
+    ],
+    "suitable_people": [
+      "减脂人群",
+      "晚餐顾客"
+    ],
+    "unsuitable_people": [
+      "想吃饱主食人群"
+    ],
+    "diet_tags": [
+      "低卡",
+      "汤品"
+    ],
+    "allergy_note": "无",
+    "need_heat": false,
+    "description": "牛肉和蔬菜搭配的轻食汤。",
+    "ingredients": "牛肉片、蔬菜、清汤",
+    "add_on": "加卤牛腱",
+    "ai_summary": "牛肉蔬菜低卡汤：牛肉和蔬菜搭配的轻食汤。 售价22.9元，规格牛肉片60g+蔬菜汤，适合减脂高蛋白,晚餐轻食，口味清淡/不辣。",
+    "test_note": "测试汤轻食"
+  },
+  {
+    "product_id": "P042",
+    "name": "能量早餐牛肉卷",
+    "category": "主食饭面",
+    "sub_category": "早餐/卷饼",
+    "is_combo": false,
+    "price": 18.9,
+    "cost": 9.8,
+    "gross_margin": 0.4814814814814814,
+    "spec": "牛肉卷1个",
+    "unit": "个",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 15.0,
+    "budget_max": 30.0,
+    "stock": 44,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 4,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "一个人吃饭",
+      "孩子吃"
+    ],
+    "suitable_people": [
+      "早餐顾客",
+      "孩子"
+    ],
+    "unsuitable_people": [
+      "严格低碳人群"
+    ],
+    "diet_tags": [
+      "方便携带"
+    ],
+    "allergy_note": "含面皮、鸡蛋可能",
+    "need_heat": false,
+    "description": "牛肉卷适合早餐或外带。",
+    "ingredients": "牛肉、卷饼、生菜",
+    "add_on": "加牛肉丸汤",
+    "ai_summary": "能量早餐牛肉卷：牛肉卷适合早餐或外带。 售价18.9元，规格牛肉卷1个，适合一个人吃饭,孩子吃，口味正常/不辣。",
+    "test_note": "测试早餐"
+  },
+  {
+    "product_id": "P043",
+    "name": "孜然牛肉粒",
+    "category": "熟食小吃",
+    "sub_category": "烧烤风味",
+    "is_combo": false,
+    "price": 36.9,
+    "cost": 19.8,
+    "gross_margin": 0.46341463414634143,
+    "spec": "160g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 35.0,
+    "budget_max": 60.0,
+    "stock": 20,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 3,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "微辣",
+    "scene_tags": [
+      "想吃辣解馋",
+      "下酒"
+    ],
+    "suitable_people": [
+      "爱孜然口味顾客"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃孜然人群"
+    ],
+    "diet_tags": [
+      "烧烤风味",
+      "即食"
+    ],
+    "allergy_note": "含孜然、辣椒",
+    "need_heat": false,
+    "description": "孜然烧烤风味牛肉粒。",
+    "ingredients": "牛肉粒、孜然、辣椒",
+    "add_on": "加黄瓜萝卜脆",
+    "ai_summary": "孜然牛肉粒：孜然烧烤风味牛肉粒。 售价36.9元，规格160g，适合想吃辣解馋,下酒，口味重口味/微辣。",
+    "test_note": "测试口味标签"
+  },
+  {
+    "product_id": "P044",
+    "name": "蒜香黄油牛肉粒",
+    "category": "熟食小吃",
+    "sub_category": "西式风味",
+    "is_combo": false,
+    "price": 42.9,
+    "cost": 24.0,
+    "gross_margin": 0.4405594405594405,
+    "spec": "160g",
+    "unit": "盒",
+    "people_min": 1,
+    "people_max": 2,
+    "budget_min": 40.0,
+    "budget_max": 65.0,
+    "stock": 12,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 4,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "高品质尝鲜",
+      "想解馋"
+    ],
+    "suitable_people": [
+      "不吃辣顾客",
+      "高客单顾客"
+    ],
+    "unsuitable_people": [
+      "不吃蒜/奶制品顾客"
+    ],
+    "diet_tags": [
+      "黄油风味",
+      "即食"
+    ],
+    "allergy_note": "含黄油、蒜",
+    "need_heat": false,
+    "description": "蒜香黄油风味，适合不吃辣但想解馋。",
+    "ingredients": "牛肉粒、黄油、蒜",
+    "add_on": "加沙拉",
+    "ai_summary": "蒜香黄油牛肉粒：蒜香黄油风味，适合不吃辣但想解馋。 售价42.9元，规格160g，适合高品质尝鲜,想解馋，口味正常/不辣。",
+    "test_note": "测试非辣解馋"
+  },
+  {
+    "product_id": "P045",
+    "name": "黑椒牛肉披萨卷",
+    "category": "主食饭面",
+    "sub_category": "创意主食",
+    "is_combo": false,
+    "price": 23.9,
+    "cost": 12.5,
+    "gross_margin": 0.47698744769874474,
+    "spec": "披萨卷1份",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 20.0,
+    "budget_max": 35.0,
+    "stock": 26,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "孩子吃",
+      "一个人吃饭"
+    ],
+    "suitable_people": [
+      "孩子",
+      "年轻顾客"
+    ],
+    "unsuitable_people": [
+      "严格减脂人群"
+    ],
+    "diet_tags": [
+      "创意主食"
+    ],
+    "allergy_note": "含奶酪、面粉",
+    "need_heat": false,
+    "description": "黑椒牛肉披萨卷，外带方便。",
+    "ingredients": "牛肉、奶酪、饼皮",
+    "add_on": "加牛肉丸汤",
+    "ai_summary": "黑椒牛肉披萨卷：黑椒牛肉披萨卷，外带方便。 售价23.9元，规格披萨卷1份，适合孩子吃,一个人吃饭，口味正常/不辣。",
+    "test_note": "测试创意产品"
+  },
+  {
+    "product_id": "P046",
+    "name": "番茄芝士牛肉焗饭",
+    "category": "主食饭面",
+    "sub_category": "焗饭",
+    "is_combo": false,
+    "price": 35.9,
+    "cost": 19.5,
+    "gross_margin": 0.4568245125348189,
+    "spec": "焗饭1份",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 35.0,
+    "budget_max": 55.0,
+    "stock": 18,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 9,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "正常吃饭",
+      "孩子吃"
+    ],
+    "suitable_people": [
+      "孩子",
+      "芝士爱好者"
+    ],
+    "unsuitable_people": [
+      "乳糖不耐受人群"
+    ],
+    "diet_tags": [
+      "芝士",
+      "饱腹"
+    ],
+    "allergy_note": "含奶酪",
+    "need_heat": false,
+    "description": "番茄牛肉加芝士焗饭，口味温和。",
+    "ingredients": "牛肉、番茄、米饭、芝士",
+    "add_on": "加蔬菜包",
+    "ai_summary": "番茄芝士牛肉焗饭：番茄牛肉加芝士焗饭，口味温和。 售价35.9元，规格焗饭1份，适合正常吃饭,孩子吃，口味正常/不辣。",
+    "test_note": "测试焗饭"
+  },
+  {
+    "product_id": "P047",
+    "name": "麻辣牛肉酱拌面",
+    "category": "主食饭面",
+    "sub_category": "拌面",
+    "is_combo": false,
+    "price": 21.9,
+    "cost": 10.8,
+    "gross_margin": 0.5068493150684931,
+    "spec": "拌面1份",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 20.0,
+    "budget_max": 35.0,
+    "stock": 35,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 4,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "中辣",
+    "scene_tags": [
+      "想吃辣解馋",
+      "一个人吃饭"
+    ],
+    "suitable_people": [
+      "爱辣顾客",
+      "预算低顾客"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃辣人群"
+    ],
+    "diet_tags": [
+      "辣味",
+      "主食"
+    ],
+    "allergy_note": "含面、辣椒",
+    "need_heat": false,
+    "description": "牛肉酱拌面，适合低预算重口味。",
+    "ingredients": "面、牛肉酱、青菜",
+    "add_on": "加牛肉丸汤",
+    "ai_summary": "麻辣牛肉酱拌面：牛肉酱拌面，适合低预算重口味。 售价21.9元，规格拌面1份，适合想吃辣解馋,一个人吃饭，口味重口味/中辣。",
+    "test_note": "测试预算低辣味"
+  },
+  {
+    "product_id": "P048",
+    "name": "原汤牛肉粉",
+    "category": "主食饭面",
+    "sub_category": "粉面",
+    "is_combo": false,
+    "price": 27.9,
+    "cost": 14.8,
+    "gross_margin": 0.4695340501792114,
+    "spec": "牛肉粉1碗",
+    "unit": "碗",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 25.0,
+    "budget_max": 40.0,
+    "stock": 33,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "正常吃饭",
+      "一个人吃饭"
+    ],
+    "suitable_people": [
+      "粉面爱好者"
+    ],
+    "unsuitable_people": [
+      "不吃粉人群"
+    ],
+    "diet_tags": [
+      "汤粉",
+      "饱腹"
+    ],
+    "allergy_note": "无明显",
+    "need_heat": false,
+    "description": "原汤牛肉粉，辣度可选。",
+    "ingredients": "牛肉、米粉、原汤",
+    "add_on": "加卤牛腱",
+    "ai_summary": "原汤牛肉粉：原汤牛肉粉，辣度可选。 售价27.9元，规格牛肉粉1碗，适合正常吃饭,一个人吃饭，口味正常/可选。",
+    "test_note": "测试辣度可选"
+  },
+  {
+    "product_id": "P049",
+    "name": "家庭饺子牛丸组合",
+    "category": "家庭套餐",
+    "sub_category": "家庭套餐",
+    "is_combo": true,
+    "price": 68.0,
+    "cost": 36.0,
+    "gross_margin": 0.47058823529411764,
+    "spec": "水饺2盒+牛筋丸1包",
+    "unit": "套",
+    "people_min": 2,
+    "people_max": 4,
+    "budget_min": 60.0,
+    "budget_max": 85.0,
+    "stock": 32,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 8,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "孩子吃",
+      "家庭备餐"
+    ],
+    "suitable_people": [
+      "家庭",
+      "孩子"
+    ],
+    "unsuitable_people": [
+      "不吃面食人群"
+    ],
+    "diet_tags": [
+      "不辣",
+      "家庭"
+    ],
+    "allergy_note": "含面食",
+    "need_heat": true,
+    "description": "适合家庭晚餐的水饺牛丸组合。",
+    "ingredients": "儿童牛肉水饺2盒、低脂牛筋丸1包",
+    "add_on": "加牛肉酱",
+    "ai_summary": "家庭饺子牛丸组合：适合家庭晚餐的水饺牛丸组合。 售价68.0元，规格水饺2盒+牛筋丸1包，适合孩子吃,家庭备餐，口味清淡/不辣。",
+    "test_note": "测试家庭儿童"
+  },
+  {
+    "product_id": "P050",
+    "name": "一人豪华烤肉体验盒",
+    "category": "生鲜烤肉",
+    "sub_category": "烤肉组合",
+    "is_combo": true,
+    "price": 79.0,
+    "cost": 48.0,
+    "gross_margin": 0.3924050632911392,
+    "spec": "烤肉3盒+蘸料",
+    "unit": "套",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 70.0,
+    "budget_max": 90.0,
+    "stock": 15,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 12,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "烤肉聚餐",
+      "高品质尝鲜"
+    ],
+    "suitable_people": [
+      "单人烤肉顾客"
+    ],
+    "unsuitable_people": [
+      "不做饭顾客"
+    ],
+    "diet_tags": [
+      "烤肉",
+      "单人"
+    ],
+    "allergy_note": "需充分加热",
+    "need_heat": true,
+    "description": "一个人也能吃的烤肉组合。",
+    "ingredients": "板腱薄片、肥牛卷、牛仔骨、蘸料",
+    "add_on": "加生菜包",
+    "ai_summary": "一人豪华烤肉体验盒：一个人也能吃的烤肉组合。 售价79.0元，规格烤肉3盒+蘸料，适合烤肉聚餐,高品质尝鲜，口味正常/可选。",
+    "test_note": "测试单人烤肉"
+  },
+  {
+    "product_id": "P051",
+    "name": "二人轻烤组合",
+    "category": "家庭套餐",
+    "sub_category": "烤肉套餐",
+    "is_combo": true,
+    "price": 118.0,
+    "cost": 72.0,
+    "gross_margin": 0.3898305084745763,
+    "spec": "烤肉4盒+生菜蘸料",
+    "unit": "套",
+    "people_min": 2,
+    "people_max": 2,
+    "budget_min": 100.0,
+    "budget_max": 140.0,
+    "stock": 13,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 15,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "可选",
+    "scene_tags": [
+      "烤肉聚餐"
+    ],
+    "suitable_people": [
+      "情侣",
+      "朋友2人"
+    ],
+    "unsuitable_people": [
+      "单人顾客"
+    ],
+    "diet_tags": [
+      "烤肉",
+      "二人"
+    ],
+    "allergy_note": "需充分加热",
+    "need_heat": true,
+    "description": "适合两个人的轻量烤肉组合。",
+    "ingredients": "板腱、肥牛、牛仔骨、生菜蘸料",
+    "add_on": "加牛肉丸",
+    "ai_summary": "二人轻烤组合：适合两个人的轻量烤肉组合。 售价118.0元，规格烤肉4盒+生菜蘸料，适合烤肉聚餐，口味正常/可选。",
+    "test_note": "测试二人套餐"
+  },
+  {
+    "product_id": "P052",
+    "name": "牛肉丸火锅补充包",
+    "category": "加购配菜",
+    "sub_category": "火锅加购",
+    "is_combo": false,
+    "price": 19.9,
+    "cost": 10.5,
+    "gross_margin": 0.47236180904522607,
+    "spec": "牛肉丸150g",
+    "unit": "包",
+    "people_min": 2,
+    "people_max": 4,
+    "budget_min": 18.0,
+    "budget_max": 35.0,
+    "stock": 52,
+    "status": "上架",
+    "priority": 6,
+    "prep_minutes": 0,
+    "dine_in": false,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "家庭备餐",
+      "加购"
+    ],
+    "suitable_people": [
+      "火锅顾客",
+      "家庭"
+    ],
+    "unsuitable_people": [
+      "不吃丸类人群"
+    ],
+    "diet_tags": [
+      "火锅",
+      "加购"
+    ],
+    "allergy_note": "可能含淀粉",
+    "need_heat": true,
+    "description": "火锅加购牛肉丸补充包。",
+    "ingredients": "牛肉丸",
+    "add_on": "搭配肥牛卷",
+    "ai_summary": "牛肉丸火锅补充包：火锅加购牛肉丸补充包。 售价19.9元，规格牛肉丸150g，适合家庭备餐,加购，口味清淡/不辣。",
+    "test_note": "测试火锅加购"
+  },
+  {
+    "product_id": "P053",
+    "name": "妈妈省心晚餐包",
+    "category": "家庭套餐",
+    "sub_category": "家庭套餐",
+    "is_combo": true,
+    "price": 98.0,
+    "cost": 57.0,
+    "gross_margin": 0.41836734693877553,
+    "spec": "牛肉饭2份+汤2份+蔬菜",
+    "unit": "套",
+    "people_min": 2,
+    "people_max": 3,
+    "budget_min": 90.0,
+    "budget_max": 120.0,
+    "stock": 18,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 10,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "一家人备餐",
+      "孩子吃"
+    ],
+    "suitable_people": [
+      "家庭",
+      "二胎家庭",
+      "孩子"
+    ],
+    "unsuitable_people": [
+      "想吃辣人群"
+    ],
+    "diet_tags": [
+      "省心",
+      "不辣"
+    ],
+    "allergy_note": "含米饭、鸡蛋可能",
+    "need_heat": false,
+    "description": "两到三人的省心晚餐组合，不辣好接受。",
+    "ingredients": "番茄牛腩饭、黑椒牛肉饭、牛肉丸汤、蔬菜",
+    "add_on": "加牛肉饼",
+    "ai_summary": "妈妈省心晚餐包：两到三人的省心晚餐组合，不辣好接受。 售价98.0元，规格牛肉饭2份+汤2份+蔬菜，适合一家人备餐,孩子吃，口味正常/不辣。",
+    "test_note": "测试家庭晚餐"
+  },
+  {
+    "product_id": "P054",
+    "name": "白领午餐双拼饭",
+    "category": "主食饭面",
+    "sub_category": "盖饭",
+    "is_combo": false,
+    "price": 38.9,
+    "cost": 21.5,
+    "gross_margin": 0.4473007712082262,
+    "spec": "牛肉+鸡胸双拼饭",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 35.0,
+    "budget_max": 55.0,
+    "stock": 27,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 6,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "正常吃饭"
+    ],
+    "suitable_people": [
+      "白领",
+      "减脂人群"
+    ],
+    "unsuitable_people": [
+      "重口味人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "饱腹"
+    ],
+    "allergy_note": "含鸡肉",
+    "need_heat": false,
+    "description": "牛肉和鸡胸双拼，适合中午吃饱不油腻。",
+    "ingredients": "牛肉片、鸡胸肉、米饭、蔬菜",
+    "add_on": "加番茄汤",
+    "ai_summary": "白领午餐双拼饭：牛肉和鸡胸双拼，适合中午吃饱不油腻。 售价38.9元，规格牛肉+鸡胸双拼饭，适合减脂高蛋白,正常吃饭，口味清淡/不辣。",
+    "test_note": "测试双拼"
+  },
+  {
+    "product_id": "P055",
+    "name": "深夜解馋麻辣三件套",
+    "category": "家庭套餐",
+    "sub_category": "解馋套餐",
+    "is_combo": true,
+    "price": 69.9,
+    "cost": 36.5,
+    "gross_margin": 0.4778254649499285,
+    "spec": "牙签牛肉+牛肉条+牛肉酱",
+    "unit": "套",
+    "people_min": 2,
+    "people_max": 3,
+    "budget_min": 60.0,
+    "budget_max": 85.0,
+    "stock": 14,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 0,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "重口味",
+    "spicy": "麻辣",
+    "scene_tags": [
+      "想吃辣解馋",
+      "下酒"
+    ],
+    "suitable_people": [
+      "爱吃辣人群",
+      "夜宵顾客"
+    ],
+    "unsuitable_people": [
+      "孩子",
+      "不吃辣人群",
+      "减脂严格人群"
+    ],
+    "diet_tags": [
+      "麻辣",
+      "即食"
+    ],
+    "allergy_note": "含辣椒、花椒",
+    "need_heat": false,
+    "description": "三款麻辣牛肉组合，适合分享和夜宵。",
+    "ingredients": "大块牙签牛肉、微辣牛肉条、牛肉酱",
+    "add_on": "加汤品解辣",
+    "ai_summary": "深夜解馋麻辣三件套：三款麻辣牛肉组合，适合分享和夜宵。 售价69.9元，规格牙签牛肉+牛肉条+牛肉酱，适合想吃辣解馋,下酒，口味重口味/麻辣。",
+    "test_note": "测试解馋套餐"
+  },
+  {
+    "product_id": "P056",
+    "name": "老人软烂牛腩汤",
+    "category": "汤品",
+    "sub_category": "汤",
+    "is_combo": false,
+    "price": 26.9,
+    "cost": 14.0,
+    "gross_margin": 0.4795539033457249,
+    "spec": "牛腩80g+清汤",
+    "unit": "碗",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 25.0,
+    "budget_max": 40.0,
+    "stock": 19,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 6,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "老人友好",
+      "正常吃饭"
+    ],
+    "suitable_people": [
+      "老人",
+      "不吃辣人群"
+    ],
+    "unsuitable_people": [
+      "牙口特别差者需确认"
+    ],
+    "diet_tags": [
+      "软烂",
+      "汤品"
+    ],
+    "allergy_note": "无",
+    "need_heat": false,
+    "description": "牛腩炖得软烂，汤底清淡。",
+    "ingredients": "牛腩、清汤、白萝卜",
+    "add_on": "搭配米饭",
+    "ai_summary": "老人软烂牛腩汤：牛腩炖得软烂，汤底清淡。 售价26.9元，规格牛腩80g+清汤，适合老人友好,正常吃饭，口味清淡/不辣。",
+    "test_note": "测试老人友好"
+  },
+  {
+    "product_id": "P057",
+    "name": "学生实惠牛肉饭套餐",
+    "category": "家庭套餐",
+    "sub_category": "单人套餐",
+    "is_combo": true,
+    "price": 29.9,
+    "cost": 15.0,
+    "gross_margin": 0.4983277591973244,
+    "spec": "牛肉饭+小汤",
+    "unit": "套",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 25.0,
+    "budget_max": 35.0,
+    "stock": 40,
+    "status": "上架",
+    "priority": 9,
+    "prep_minutes": 5,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "一个人吃饭",
+      "正常吃饭"
+    ],
+    "suitable_people": [
+      "学生",
+      "预算低顾客"
+    ],
+    "unsuitable_people": [
+      "高品质尝鲜顾客"
+    ],
+    "diet_tags": [
+      "实惠",
+      "饱腹"
+    ],
+    "allergy_note": "无",
+    "need_heat": false,
+    "description": "一人实惠套餐，价格友好。",
+    "ingredients": "迷你牛肉饭、牛肉丸小汤",
+    "add_on": "加煎蛋",
+    "ai_summary": "学生实惠牛肉饭套餐：一人实惠套餐，价格友好。 售价29.9元，规格牛肉饭+小汤，适合一个人吃饭,正常吃饭，口味正常/不辣。",
+    "test_note": "测试低预算套餐"
+  },
+  {
+    "product_id": "P058",
+    "name": "高客单和牛尝鲜双人餐",
+    "category": "家庭套餐",
+    "sub_category": "高端套餐",
+    "is_combo": true,
+    "price": 168.0,
+    "cost": 102.0,
+    "gross_margin": 0.39285714285714285,
+    "spec": "和牛饭2份+和牛烤肉1盒+汤",
+    "unit": "套",
+    "people_min": 2,
+    "people_max": 2,
+    "budget_min": 150.0,
+    "budget_max": 190.0,
+    "stock": 7,
+    "status": "上架",
+    "priority": 7,
+    "prep_minutes": 15,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "高品质尝鲜",
+      "二人吃饭"
+    ],
+    "suitable_people": [
+      "情侣",
+      "高客单顾客"
+    ],
+    "unsuitable_people": [
+      "预算低顾客"
+    ],
+    "diet_tags": [
+      "和牛",
+      "双人"
+    ],
+    "allergy_note": "含鸡蛋可能",
+    "need_heat": false,
+    "description": "适合两人尝鲜的和牛组合。",
+    "ingredients": "纯血和牛蛋白饭2份、M6和牛烤肉片、牛肉丸汤",
+    "add_on": "加蒜香牛肉粒",
+    "ai_summary": "高客单和牛尝鲜双人餐：适合两人尝鲜的和牛组合。 售价168.0元，规格和牛饭2份+和牛烤肉1盒+汤，适合高品质尝鲜,二人吃饭，口味正常/不辣。",
+    "test_note": "测试高端双人"
+  },
+  {
+    "product_id": "P059",
+    "name": "健身增肌牛肉盒",
+    "category": "减脂轻食",
+    "sub_category": "增肌餐",
+    "is_combo": false,
+    "price": 52.9,
+    "cost": 29.0,
+    "gross_margin": 0.45179584120982985,
+    "spec": "牛肉150g+鸡胸100g+蛋",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 50.0,
+    "budget_max": 70.0,
+    "stock": 16,
+    "status": "上架",
+    "priority": 8,
+    "prep_minutes": 8,
+    "dine_in": true,
+    "takeaway": true,
+    "delivery": true,
+    "taste": "清淡",
+    "spicy": "不辣",
+    "scene_tags": [
+      "减脂高蛋白",
+      "健身增肌"
+    ],
+    "suitable_people": [
+      "健身人群",
+      "增肌人群"
+    ],
+    "unsuitable_people": [
+      "不吃鸡蛋/鸡肉人群"
+    ],
+    "diet_tags": [
+      "高蛋白",
+      "低油"
+    ],
+    "allergy_note": "含鸡蛋、鸡肉",
+    "need_heat": false,
+    "description": "牛肉鸡胸鸡蛋组合，蛋白质更足。",
+    "ingredients": "牛肉、鸡胸、煎蛋、蔬菜",
+    "add_on": "加西蓝花",
+    "ai_summary": "健身增肌牛肉盒：牛肉鸡胸鸡蛋组合，蛋白质更足。 售价52.9元，规格牛肉150g+鸡胸100g+蛋，适合减脂高蛋白,健身增肌，口味清淡/不辣。",
+    "test_note": "测试健身"
+  },
+  {
+    "product_id": "P060",
+    "name": "门店隐藏测试商品",
+    "category": "主食饭面",
+    "sub_category": "测试",
+    "is_combo": false,
+    "price": 9.9,
+    "cost": 20.0,
+    "gross_margin": -1.02020202020202,
+    "spec": "异常测试",
+    "unit": "份",
+    "people_min": 1,
+    "people_max": 1,
+    "budget_min": 5.0,
+    "budget_max": 15.0,
+    "stock": 5,
+    "status": "测试",
+    "priority": 1,
+    "prep_minutes": 1,
+    "dine_in": false,
+    "takeaway": false,
+    "delivery": false,
+    "taste": "正常",
+    "spicy": "不辣",
+    "scene_tags": [
+      "测试"
+    ],
+    "suitable_people": [
+      "测试人员"
+    ],
+    "unsuitable_people": [
+      "顾客"
+    ],
+    "diet_tags": [
+      "异常数据"
+    ],
+    "allergy_note": "无",
+    "need_heat": false,
+    "description": "用于测试负毛利和测试状态过滤，不应对顾客展示。",
+    "ingredients": "测试原料",
+    "add_on": "无",
+    "ai_summary": "门店隐藏测试商品：用于测试负毛利和测试状态过滤，不应对顾客展示。 售价9.9元，规格异常测试，适合测试，口味正常/不辣。",
+    "test_note": "测试异常毛利"
+  }
+]
