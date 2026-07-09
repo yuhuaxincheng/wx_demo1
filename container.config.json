@@ -26,4 +26,30 @@
   },
   "customLogs": "stdout",
   "initialDelaySeconds": 5
+  "containerPort": 80,
+  "minNum": 0,
+  "maxNum": 5,
+  "cpu": 1,
+  "mem": 2,
+  "policyType": "cpu",
+  "policyThreshold": 60,
+  "policyDetails": [
+    {
+      "PolicyType": "cpu",
+      "PolicyThreshold": 60
+    },
+    {
+      "PolicyType": "mem",
+      "PolicyThreshold": 60
+    }
+  ],
+  "envParams": {
+    "USE_LLM": "true",
+	"SILICONFLOW_API_KEY":  "sk-qkmvspzkqyjbmrlgxlefwnlcrctztszblvusumgpmjhqonre",
+    "RECOMMEND_CACHE_ENABLED": "true",
+    "RECOMMEND_CACHE_PATH": "/app/wxcloudrun/data/recommendation_cache.json",
+    "MYSQL_DATABASE": "rbg_ai"
+  },
+  "customLogs": "stdout",
+  "initialDelaySeconds": 5
 }
