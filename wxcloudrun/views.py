@@ -1,17 +1,14 @@
 from __future__ import annotations
 
 from typing import Any
-import os
 
 from flask import jsonify, render_template, request
 from pydantic import ValidationError
 
 from wxcloudrun import app
 from wxcloudrun.db import (
-    admin_summary,
     db_enabled,
     get_member,
-    list_members,
     list_recommendation_logs,
     record_member_order,
     save_recommendation_log,
@@ -64,32 +61,9 @@ def _wechat_identity() -> dict:
     }
 
 
-def _admin_error():
-    expected = os.getenv("ADMIN_TOKEN", "").strip()
-    token = (
-        request.headers.get("X-ADMIN-TOKEN")
-        or request.args.get("token")
-        or ""
-    ).strip()
-    if not expected:
-        return _json_response({
-            "error": "ADMIN_TOKEN 未配置，后台查看功能未开启",
-        }, 403)
-    if token != expected:
-        return _json_response({
-            "error": "管理口令错误",
-        }, 401)
-    return None
-
-
 @app.route("/")
 def index():
     return render_template("index.html")
-
-
-@app.route("/admin")
-def admin_page():
-    return render_template("admin.html")
 
 
 @app.route("/health")
@@ -119,56 +93,6 @@ def get_cache_stats():
 @app.route("/api/cache/clear", methods=["POST"])
 def post_cache_clear():
     return _json_response(clear_cache())
-
-
-@app.route("/api/admin/summary")
-def admin_get_summary():
-    error = _admin_error()
-    if error:
-        return error
-    try:
-        return _json_response(admin_summary())
-    except Exception as exc:
-        return _json_response({
-            "error": "读取汇总数据失败",
-            "detail": str(exc),
-        }, 500)
-
-
-@app.route("/api/admin/members")
-def admin_get_members():
-    error = _admin_error()
-    if error:
-        return error
-    try:
-        rows = list_members(int(request.args.get("limit", 100)))
-        return _json_response({
-            "count": len(rows),
-            "items": rows,
-        })
-    except Exception as exc:
-        return _json_response({
-            "error": "读取会员数据失败",
-            "detail": str(exc),
-        }, 500)
-
-
-@app.route("/api/admin/recommendations")
-def admin_get_recommendations():
-    error = _admin_error()
-    if error:
-        return error
-    try:
-        rows = list_recommendation_logs(int(request.args.get("limit", 50)))
-        return _json_response({
-            "count": len(rows),
-            "items": rows,
-        })
-    except Exception as exc:
-        return _json_response({
-            "error": "读取推荐记录失败",
-            "detail": str(exc),
-        }, 500)
 
 
 @app.route("/api/member/login", methods=["POST"])

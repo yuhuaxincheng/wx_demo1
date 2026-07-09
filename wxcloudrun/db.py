@@ -239,63 +239,6 @@ def _serialize_member(row: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]
     return row
 
 
-def list_members(limit: int = 100) -> List[Dict[str, Any]]:
-    if not db_enabled():
-        return []
-
-    limit = max(1, min(int(limit or 100), 500))
-    init_db()
-    with _connect(use_database=True) as conn:
-        with conn.cursor() as cursor:
-            cursor.execute(
-                """
-                SELECT id, created_at, updated_at, openid, unionid, nick_name,
-                       avatar_url, order_count, total_amount
-                FROM members
-                ORDER BY updated_at DESC, id DESC
-                LIMIT %s
-                """,
-                (limit,),
-            )
-            rows = cursor.fetchall()
-
-    return [_serialize_member(row) for row in rows if row]
-
-
-def admin_summary() -> Dict[str, Any]:
-    if not db_enabled():
-        return {
-            "db_enabled": False,
-            "member_count": 0,
-            "order_count": 0,
-            "total_amount": 0.0,
-            "recommendation_count": 0,
-        }
-
-    init_db()
-    with _connect(use_database=True) as conn:
-        with conn.cursor() as cursor:
-            cursor.execute(
-                """
-                SELECT COUNT(*) AS member_count,
-                       COALESCE(SUM(order_count), 0) AS order_count,
-                       COALESCE(SUM(total_amount), 0) AS total_amount
-                FROM members
-                """
-            )
-            member_row = cursor.fetchone() or {}
-            cursor.execute("SELECT COUNT(*) AS recommendation_count FROM recommendation_logs")
-            log_row = cursor.fetchone() or {}
-
-    return {
-        "db_enabled": True,
-        "member_count": int(member_row.get("member_count") or 0),
-        "order_count": int(member_row.get("order_count") or 0),
-        "total_amount": float(member_row.get("total_amount") or 0),
-        "recommendation_count": int(log_row.get("recommendation_count") or 0),
-    }
-
-
 def list_recommendation_logs(limit: int = 20) -> List[Dict[str, Any]]:
     if not db_enabled():
         return []
