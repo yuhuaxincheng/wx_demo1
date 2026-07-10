@@ -1,6 +1,9 @@
 .git
-.dockerignore
-Dockerfile*
-container.config.json
-LICENSE
-README.md
+.env
+.venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.idea
+wxcloudrun/data/recommendation_cache.json
